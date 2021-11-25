@@ -131,6 +131,7 @@ footer {
 
 p {
     line-height: 1.5;
+	margin: 10px auto;
 }
 
 progress {
@@ -169,14 +170,6 @@ progress::-moz-progress-value {
     margin-bottom: 20px;
 }
 
-.weixin{
-    margin-top: 20px;
-    background-color: #e0eaf0;   
-    position: relative;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    text-align: center;
-}
 
 .weixin img{
     width: 200px;
@@ -191,7 +184,7 @@ progress::-moz-progress-value {
     margin: 0 auto;
     margin-top:20px;
     margin-bottom: 10px;
-    background-image:url('https://avatars0.githubusercontent.com/u/21081491?v=3&s=460');
+    background-image:url(../image/Sun.jpg);
     background-size: 120%;
     background-position:center;
     border-radius:50%;
@@ -206,7 +199,7 @@ progress::-moz-progress-value {
     margin: 0 auto;
 
     width: 1050px;
-    height: 1550px;
+    height: auto;
     background-color: white;
 
 }
@@ -229,13 +222,6 @@ progress::-moz-progress-value {
 
 }
 
-.info-header:hover {
-    background-color: #d4dee4;
-}
-
-.info-unit ul li:hover {
-    background-color: #d4dee4;
-}
 
 .info-header .unit-remove {
     float: right;
